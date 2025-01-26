@@ -1,18 +1,19 @@
 {
   "name": "scrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este proyecto tiene como objetivo realizar scraping de información desde la página El País - Últimas Noticias y luego implementar un CRUD (Crear, Leer, Actualizar, Borrar) para gestionar los datos obtenidos.\r `const url = https://elpais.com/ultimas-noticias/`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "1.6.5",
+    "axios": "1.7.9",
     "cheerio": "1.0.0-rc.12",
-    "express": "4.18.2",
+    "express": "4.21.2",
     "fs": "0.0.1-security"
   }
 }
